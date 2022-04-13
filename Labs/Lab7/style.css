@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+/* this makes the body become teal blue and the font black*/ 
+body{
+  background-color:#95DBE5FF;
+  color: black;
+}
+/* this styles the banner header*/ 
+.header{
+  background-color:#078282FF;
+  padding:20px;
+  text-align:center;
+  color:black;
+}
+/* this affected the header in the top of the page by changing the background color to tanager turquoise and aligned the texts so it is centered */ 
+.topNav{
+  background-color:rgba(255,215,0,); 
+  padding:20px;
+  overflow:hidden;
+}
+/* this with the combination of the other background color resulted in the present background color and the hidden helped the website so you do not see any of the errors and the padding added the border*/ 
+.topNav a{
+  color:black;
+  float:center;
+  display:block;
+  text-align:center;
+  padding:18px 18px;
+}
+/* this affected the lab links, changed the color of the links to black, made the links appear in the left and seperated the links and centered the links*/ 
+.top:hover a{
+  border:1px whitesmoke screen
+}
+/* this allowed you to be able to hover over the lab links */
+.topNav a:hover{ 
+  background-color:#339E66FF;
+  color:black; 
+}
+/* this made it so that when you hover over the lab links there will be a kelly green background */
+.row{
+  overflow:hidden;
+}
+/* this helped the rows so that it does not appear */
+.column{
+  float:left;
+  width:33.33%;
+  padding:20px;
+  border:10px white solid;
+}
+/* this affected the column section and make it float and change the size and thickness of the border around it*/

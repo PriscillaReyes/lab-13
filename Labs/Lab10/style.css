@@ -1,0 +1,146 @@
+.magic{
+  border: turquoise solid 7px;
+  width:400px;
+  height:400px;
+  overflow:hidden;
+  position:relative;
+  left:5px;
+  padding:5px;
+  margin:5px;
+  float: left;
+}
+/* this made the borders appear solid and turquoise*/  
+#apl{
+  width:50px;
+  position:relative;
+  left:225px;
+  top:150px; 
+}
+/* this allowed you to see the image of the apple in the middle of the tree which made it seem like the apple is in the branches of the tree */ 
+#apl:hover{
+  visibility:hidden;
+} 
+/* this made it so that when you hover over the apple it appears hidden and like you are picking the apple from the tree */ 
+.hunt{
+  width:400px;
+  height:400px;
+  overflow:hidden;
+  position:relative;
+  left:50px;
+  padding:200px;
+  margin:10px;
+  float: left;
+}
+/* this is the base of the image relating to the treasure hunt with the highway and cars, this allows you to see the highway and cars in the website because without this the highway and cars would not appear */ 
+#road{
+  height:300px;
+  width:500px;
+  float: left;
+  border: turquoise solid 7px;
+  z-index:1; 
+}
+/* this made the picture of the highway appear and with a turquoise solid border around it */ 
+#ford{
+  width:150px;
+  position:relative;
+  left:220px;
+  bottom:-400px; 
+  z-index:1;
+  opacity:0%;
+}
+/* this made the ford car appear inside the picture of the highway */
+#ford:hover{
+  opacity:100%;
+}
+/* this allowed for you to have to search for the car by making the car seem invisible until you press your computer mouse in the right location of the car */ 
+#honda{
+  width:150px;
+  position:relative;
+  left:250px;
+  bottom:-400px; 
+  z-index:1;
+  opacity:0%;
+}
+/* this made the picture of the honda appear in the highway */
+#honda:hover{
+  opacity:100%;
+}
+/* this allowed for you to have to search for the car by making the car seem invisible until you press your computer mouse in the right location of the car */ 
+#toyota{
+  width:150px;
+  position:relative;
+  left:70px;
+  bottom:-300px;
+  z-index:1;
+  opacity:0%;
+}
+/* this made the picture of the toyota appear in the highway */
+#toyota:hover{
+  opacity:100%;
+}
+/* this allowed for you to have to search for the car by making the car seem invisible until you press your computer mouse in the right location of the car */ 
+#porsche{
+  width:150px;
+  position:relative;
+  left:170px;
+  bottom:-370px;
+  z-index:1;
+  opacity:0%;
+}
+/* this made the picture of the porsche appear in the highway */
+#porsche:hover{
+  opacity:100%;
+}
+/* this allowed for you to have to search for the car by making the car seem invisible until you press your computer mouse in the right location of the car */ 
+#ferrari{
+  width:150px;
+  position:relative;
+  left:350px;
+  bottom:-330px;
+  z-index:1;
+  opacity:0%;
+}
+/* this made the picture of the ferrari appear in the highway */
+#ferrari:hover{
+  opacity:100%;
+}
+/* this allowed for you to have to search for the car by making the car seem invisible until you press your computer mouse in the right location of the car */ 
+#tree{
+  height:390px;
+  z-index:1; 
+}  
+/* this allowed you to see the image of the tree in the website page */
+.header{
+  background-color:#40E0D0;
+  padding:20px;
+  text-align:center;
+  color:white;
+}
+/* this affected the header in the top of the page by changing the background color to turquoise and aligned the texts so it is centered */ 
+.topNav{
+  background-color:rgba(127,255,212); 
+  padding:20px;
+  overflow:hidden;
+} 
+/* this with the combination of the other background color resulted in the present background color and the hidden helped the website so you do not see any of the errors and the padding added the border*/ 
+.topNav a{
+  color:#40E0D0;
+  float:left;
+  display:block;
+  text-align:center;
+  padding:18px 18px;
+}
+/* this affected the lab links, changed the color of the links to turquoise, made the links appear in the left and seperated the links and centered the links*/ 
+.top:hover a{
+  border:1px whitesmoke screen
+} 
+/* this allowed you to be able to hover over the lab links */
+.topNav a:hover{ 
+  background-color:white; 
+  color:#40E0D0;
+} 
+/* this made it so that when you hover over the lab links there will be a white background */
+.row{
+  overflow:hidden;
+}
+/* this helped the rows so that it does not appear */

@@ -1,0 +1,76 @@
+*/ create css for gallery*/
+}
+*{
+  box-sizing: border-box;
+}
+.responsive{
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%
+}
+ @media only screen and (max-width: 700px){
+   .responsive {
+     width: 49.99999%;
+     margin: 6px 0;
+   }
+ }
+@media only screen and (max-width: 500px){
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+div.gallery{
+  border: 1px solid #ccc;
+}
+div.gallery:hover{
+  border: 1px solid #777;
+}
+div.gallery img{
+  width: 100%;
+  height: auto;
+}
+div.desc{
+  padding: 15px;
+  text-align:left;
+}
+/* this makes the body become pink and the font purple*/ 
+body{
+  background-color:#F6EA7BFF;
+  color:black;
+}
+/* this styles the banner header*/ 
+.header{
+  background-color:#F6EA7BFF;
+  padding:20px;
+  text-align:center;
+  color:#FFBA52FF;
+}
+/* this affected the header in the top of the page by changing the background color to white and aligned the texts so it is centered */ 
+.topNav{
+  background-color:rgb(255, 186, 82); 
+  padding:20px;
+  overflow:hidden;
+}
+/* this with the combination of the other background color resulted in the present background color and the hidden helped the website so you do not see any of the errors and the padding added the border*/ 
+.topNav a{
+  color:black;
+  float:left;
+  display:block;
+  text-align:left;
+  padding:18px 18px;
+}
+/* this affected the lab links, changed the color of the links to purple, made the links appear in the left and seperated the links/ 
+.top:hover a{
+  border:1px whitesmoke screen
+}
+/* this allowed you to be able to hover over the lab links */
+.topNav a:hover{ 
+  background-color:#E683A9FF;
+  color:black; 
+}
+/* this made it so that when you hover over the lab links there will be a white background */
